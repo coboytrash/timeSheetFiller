@@ -19,13 +19,13 @@ class TimeTrackerView:
         self.desc_text = tk.Text(self.root, width=20, height=4, wrap="word")
         self.start_label = tk.Label(self.root, text="-")
         self.stop_label = tk.Label(self.root, text="-")
-        self.minutes_label = tk.Label(self.root, text="-")
+        self.minutes_entry = tk.Entry(self.root, width=10)
 
         self.ticket_entry.grid(row=0, column=1, sticky="w")
         self.desc_text.grid(row=1, column=1, sticky="w")
         self.start_label.grid(row=2, column=1, sticky="w")
         self.stop_label.grid(row=3, column=1, sticky="w")
-        self.minutes_label.grid(row=4, column=1, sticky="w")
+        self.minutes_entry.grid(row=4, column=1, sticky="w")
 
         self.start_btn = tk.Button(self.root, text="Start")
         self.stop_btn = tk.Button(self.root, text="Stop")
@@ -48,4 +48,4 @@ class TimeTrackerView:
         self.desc_text.delete("1.0", "end")
         self.start_label.config(text="-")
         self.stop_label.config(text="-")
-        self.minutes_label.config(text="-")
+        self.minutes_entry.delete(0, "end")
