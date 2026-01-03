@@ -20,22 +20,29 @@ class TimeTrackerController:
     def stop_clicked(self):
         stop = self.model.stop()
         minutes = self.model.duration_minutes()
-        self.view.stop_label.config(text=stop.strftime("%Y-%m-%d %H:%M:%S"))
-        self.view.minutes_label.config(text=f"{minutes:.2f}")
+
+        self.view.stop_label.config(
+            text=stop.strftime("%Y-%m-%d %H:%M:%S")
+        )
+
+        if not self.view.minutes_entry.get():
+            self.view.minutes_entry.insert(0, f"{minutes:.2f}")
 
     def add_clicked(self):
         jira, task = self.view.get_form_data()
-        minutes = self.model.duration_minutes()
+        start = self.view.start_label.cget("text")
+        stop = self.view.stop_label.cget("text")
 
+        minutes = self._get_minutes()
         if minutes is None:
-            return
+            return  # invalid or missing data
 
         self.writer.write_entry(
-            jira,
-            task,
-            self.view.start_label.cget("text"),
-            self.view.stop_label.cget("text"),
-            minutes,
+            jira=jira,
+            task=task,
+            start=start,
+            stop=stop,
+            minutes=f"{minutes:.2f}",
         )
         self.view.clear()
 
@@ -44,3 +51,14 @@ class TimeTrackerController:
         self.view.root.attributes("-topmost", self.always_on_top)
         status = "ON" if self.always_on_top else "OFF"
         self.view.top_btn.config(text=f"A.O.T. {status}")
+
+    def _get_minutes(self):
+        manual = self.view.minutes_entry.get().strip()
+
+        if manual:
+            try:
+                return float(manual)
+            except ValueError:
+                return None
+
+        return self.model.duration_minutes()
