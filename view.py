@@ -5,15 +5,13 @@ class TimeTrackerView:
     def __init__(self, root):
         self.root = root
         self.root.title("Timesheet Filler")
-        #self.root.minsize(200, 200)
+
         self.dock_left(width=100)
         self.build_ui()
 
     def build_ui(self):
         tk.Label(self.root, text="Ticket ID").grid(row=0, column=0, sticky="w")
         tk.Label(self.root, text="Description").grid(row=2, column=0, sticky="nw")
-        #tk.Label(self.root, text="Start").grid(row=4, column=0, sticky="w")
-        #tk.Label(self.root, text="Stop").grid(row=15, column=0, sticky="w")
         tk.Label(self.root, text="Minutes").grid(row=9, column=0, sticky="w")
 
         self.ticket_entry = tk.Entry(self.root, width=16)

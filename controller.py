@@ -4,7 +4,6 @@ class TimeTrackerController:
         self.writer = writer
         self.view = view
         self.always_on_top = False
-
         self.bind_events()
 
     def bind_events(self):
@@ -29,6 +28,7 @@ class TimeTrackerController:
             self.view.minutes_entry.insert(0, f"{minutes:.2f}")
 
     def add_clicked(self):
+
         jira, task = self.view.get_form_data()
         start = self.view.start_label.cget("text")
         stop = self.view.stop_label.cget("text")
@@ -37,12 +37,15 @@ class TimeTrackerController:
         if minutes is None:
             return  # invalid or missing data
 
+        actual_date = self.model.add_date()
+
         self.writer.write_entry(
             jira=jira,
             task=task,
             start=start,
             stop=stop,
             minutes=f"{minutes:.2f}",
+            actual_date=actual_date,
         )
         self.view.clear()
 
