@@ -6,6 +6,7 @@ class TimeTrackerView:
         self.root = root
         self.root.title("Timesheet Filler")
         self.root.minsize(260, 200)
+        self.dock_left(width=260)
         self.build_ui()
 
     def build_ui(self):
@@ -49,3 +50,8 @@ class TimeTrackerView:
         self.start_label.config(text="-")
         self.stop_label.config(text="-")
         self.minutes_entry.delete(0, "end")
+
+    def dock_left(self, width=260):
+        screen_height = self.root.winfo_screenheight()
+        self.root.geometry(f"{width}x{screen_height}+0+0")
+        self.root.resizable(width=True, height=False)
