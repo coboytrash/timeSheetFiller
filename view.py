@@ -1,6 +1,5 @@
 import tkinter as tk
 
-
 class TimeTrackerView:
     def __init__(self, root):
         self.root = root
@@ -11,30 +10,35 @@ class TimeTrackerView:
 
     def build_ui(self):
         tk.Label(self.root, text="Ticket ID").grid(row=0, column=0, sticky="w")
-        tk.Label(self.root, text="Description").grid(row=2, column=0, sticky="nw")
-        tk.Label(self.root, text="Minutes").grid(row=9, column=0, sticky="w")
+        tk.Label(self.root, text="Description").grid(row=4, column=0, sticky="nw")
+        tk.Label(self.root, text="Minutes").grid(row=11, column=0, sticky="w")
+        tk.Label(self.root, text="Last Tasks").grid(row=2, column=0, sticky="w")
 
         self.ticket_entry = tk.Entry(self.root, width=16)
-        self.desc_text = tk.Text(self.root, width=14, height=15, wrap="word")
+        self.desc_text = tk.Text(self.root, width=14, height=10, wrap="word")
         self.start_label = tk.Label(self.root, text="-")
         self.stop_label = tk.Label(self.root, text="-")
         self.minutes_entry = tk.Entry(self.root, width=10)
 
         self.ticket_entry.grid(row=1, column=0, sticky="w", pady = (0, 10))
-        self.desc_text.grid(row=3, column=0, sticky="w", pady = (0, 20))
-        self.start_label.grid(row=6, column=0, sticky="w", pady = (0, 10))
-        self.stop_label.grid(row=8, column=0, sticky="w", pady = (0, 10))
-        self.minutes_entry.grid(row=10, column=0, sticky="w", pady = (0, 10))
+        self.desc_text.grid(row=5, column=0, sticky="w", pady = (0, 20))
+        self.start_label.grid(row=8, column=0, sticky="w", pady = (0, 10))
+        self.stop_label.grid(row=10, column=0, sticky="w", pady = (0, 10))
+        self.minutes_entry.grid(row=12, column=0, sticky="w", pady = (0, 10))
 
         self.start_btn = tk.Button(self.root, text="Start")
         self.stop_btn = tk.Button(self.root, text="Stop")
         self.add_btn = tk.Button(self.root, text="Add Task")
         self.top_btn = tk.Button(self.root, text="A.O.T. OFF")
 
-        self.start_btn.grid(row=5, column=0, sticky="ew")
-        self.stop_btn.grid(row=7, column=0, sticky="ew")
-        self.add_btn.grid(row=11, column=0, sticky="ew", pady = (0, 200))
-        self.top_btn.grid(row=12, column=0, sticky="w")
+        self.start_btn.grid(row=7, column=0, sticky="ew")
+        self.stop_btn.grid(row=9, column=0, sticky="ew")
+        self.add_btn.grid(row=13, column=0, sticky="ew", pady = (0, 10))
+        self.top_btn.grid(row=14, column=0, sticky="ew")
+
+        self.history_sel = tk.Listbox(master=None,cnf={})
+        self.history_sel.grid(row=3, column=0, sticky="nw")
+
 
 
     def get_form_data(self):
@@ -54,3 +58,8 @@ class TimeTrackerView:
         screen_height = self.root.winfo_screenheight()
         self.root.geometry(f"{width}x{screen_height}+0+0")
         self.root.resizable(width=True, height=False)
+
+    def fill_history_sel(self,history_sel_data):
+        for history_sel_data_count in history_sel_data:
+            self.history_sel.insert(tk.END, history_sel_data_count)
+

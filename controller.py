@@ -38,6 +38,7 @@ class TimeTrackerController:
             return  # invalid or missing data
 
         actual_date = self.model.add_date()
+        actual_ticket = self.model.ticket_entry.get()
 
         self.writer.write_entry(
             jira=jira,
@@ -49,11 +50,13 @@ class TimeTrackerController:
         )
         self.view.clear()
 
+
     def toggle_top(self):
         self.always_on_top = not self.always_on_top
         self.view.root.attributes("-topmost", self.always_on_top)
         status = "ON" if self.always_on_top else "OFF"
         self.view.top_btn.config(text=f"A.O.T. {status}")
+        self.ticket_id_data()
 
     def _get_minutes(self):
         manual = self.view.minutes_entry.get().strip()
@@ -63,5 +66,8 @@ class TimeTrackerController:
                 return float(manual)
             except ValueError:
                 return None
-
         return self.model.duration_minutes()
+
+    def ticket_id_data(self):
+        ticket_id = self.model.ticket_id_extractor()
+        self.view.fill_history_sel(ticket_id)
