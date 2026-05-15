@@ -1,0 +1,397 @@
+JIRA_ID;Task;Start;Stop;Minutes
+SD-1;sddsfs	;2026-01-03 16:54:12;2026-01-03 16:54:13;0.02
+AF-14256;-Munkaidõ nyilvántartás update
+-Levelezés catching up
+-Feladatok rendezése, priorizálása(JIRA - SD-17968,SD-18048 , cockpit)
+-Szanyi Bálint János  ramp up megbeszélés Kotroczó Nándorral;2026-01-05 08:06:36;2026-01-05 09:01:14;54.63
+;mEGBESZÉLÉS bAlogl Lacival AN-1482;2026-01-05 10:17:09;2026-01-05 10:31:18;14.14
+;Cockpit segítségnyújtás Balogh Lacinak A reviewer nem jelenik meg a fedlapon;2026-01-05 10:50:14;2026-01-05 10:54:08;30.00
+AF-16339;Teszt nélküli requirementek -összeszedése,
+-kiosztása,
+-confluence oldal megcsinálása,
+-jira ticket megcsinálása:
+https://jira.mediso.com/browse/AF-16339
+-kideríteni, hogy melyik doksihoz ki írja a tesztet (lehet, hogy nem SW tesztelõ);2026-01-05 11:06:27;2026-01-05 13:42:18;155.84
+AF-16339;Kideríteni, hogy melyik requirementhez melyik fejlesztõ tartozik, al-ticketek készítése a teszt írási feladatokhoz;2026-01-05 14:05:11;2026-01-05 15:09:48;64.61
+AF-14256;Standupon Fábián Gáborral megbeszélés AI támogatott robot FW teszt generálásról. Ticketet készítés;-;-;15.00
+AF-16347;ticketek átmozgatása  2025-26-ba;-;-;30.00
+16339;Kideríteni, hogy melyik requirementhez melyik fejlesztõ tartozik, al-ticketek készítése a teszt írási feladatokhoz;2026-01-06 09:42:54;2026-01-06 10:04:15;21.34
+AF-14492;Segítségnyújtás Barna Zsoltnak a SOUP vulnerability-kkel kapcsolatban. SOUP dokumentumok gyártása, feltöltése sharepointra;-;-;15.00
+SD-18485;Segítségnyújtás Albertnek. Ticket gyártás Jenkns hiba javításhoz. AF-16348, SD-18485;-;-;30.00
+SD-18487;Jónás Alberttel megbeszélés egy bukó teszt invesztigálásával kapcsolatban, ami kiterjed(het) a fejlesztõ környezetekre is;-;-;60.00
+AF-16339;Kideríteni, hogy melyik requirementhez melyik fejlesztõ tartozik, al-ticketek készítése a teszt írási feladatokhoz;2026-01-06 13:21:00;2026-01-06 13:55:54;34.90
+SD-18504;ticket megírása, confluence oldal tartalommal való feltöltése, plusz infok beszerzése (pl.: tesztelhetõk ez az MPPS-es requirementek);-;-;60.00
+AF-16347;Standup: AI használata a tesztelésben megbeszélése, Fábián Gábor koncepciója alkalmas lehet arra, hogy ezt elkezdjük;2026-01-07 09:02:19;2026-01-07 09:15:59;15.00
+SD-18478;Meeting meghívó kiírása és kick off jellegû kérdések összegyûjtése a koncepcióval kapcsolatban.;2026-01-07 09:25:02;2026-01-07 10:25:53;60.86
+SD-15742;Tesztekkel le nem fedett MIQC requirementek review-ja, ad-hoc segítségnyújtás Rigó Marcellnek, Reuss Andrásnak, Fábián Gábornak (kb 30 perc), QT6-tal kapcsolatos belassulás miatti mérések felhsaználása performance requirementek írásához - egyeztetés király Daniékkal (kb 15 perc);2026-01-07 10:33:20;2026-01-07 12:20:10;106.83
+AF-16347;Segítségnyújtás Barna Zsoltnak. 3dconnexion datasheet föltöltése shareporintra, dokumentum azonosító elküldése, llenõrzés, hogy van e már ilyen dokumentum (02261-D doksiban);2026-01-07 12:23:10;2026-01-07 12:39:13;16.05
+AF-16347;Megbeszélés Fábián Gáborral és Balogh Lászlóval, hogy az újonnan írt file server tesztek bukása kapcsán kinek mi a feladata. Szanyi Bálint munkaviszony megkezdési adatlap adminisztráció. Megbezsélés Kotroczó Nándorral ;2026-01-07 15:25:16;2026-01-07 16:06:56;41.68
+CC-206;A teszt protokoll workflow-n végig kell tolni a protokollt és meg kell nézni, hogy jól jelenik e meg a history;2026-01-07 16:08:10;2026-01-07 17:28:37;80.44
+SD-18478;https://passed.hu/blog/modszertan/szoftverteszteles-a-mesterseges-intelligenciaval/
+Ez a forrás cikk, ami nem sokkal az után érkezett, hogy Fábián Gábor is elkezdett foglalkozni az AI használatával. Ezt dolgoztam föl, standup, Barna Zsolt és Jónás Albert "Konfigurációt igénylő tesztek" levelezésének gyorsítása (Zsolt egy nap delayt csak úgy beletett a feladatmegoldásba azzal, hogy azt kérte, másnap keressük);2026-01-08 08:37:15;2026-01-08 09:22:06;44.86
+;MIQC requirement review és teszt írás, meeting, ad-hoc segítségnyújtás Albertnek, Gábornak,. Kérdezõsködni, hogy melyik fejlesztõ mennyi idõ alatt tudnak teszteket írni a le nem fedett requirementekhez;2026-01-08 09:23:01;2026-01-08 16:59:19;456.30
+;A tesztekkel le nem fedett requirementek   ownereinek összeszedése;2026-01-08 22:02:18;2026-01-08 23:02:31;60.22
+;Megbeszélés Kotroczó Nándorral Szanyi Bálint betanításával kapcsolatban;-;-;60.00
+SD-18478;AI használata a tesztelésben - kick off jellegű megbeszélés;2026-01-09 09:07:48;2026-01-09 10:24:46;76.97
+AF-16347;Segítségnyújtás Fegyvári Andrásnak XP notebook-on történõ tesztelésével kapcsolatban;2026-01-09 10:39:07;2026-01-09 10:49:28;10.34
+SD-18478;Transcript készítés a meeting video-hoz (megnézni az IT AI irányelveit, letölteni a video-t, megcsinálni a transcriptet). Ebédidõ levonva;2026-01-09 10:52:04;2026-01-09 13:29:07;157.05
+AF-16347;Ticket adminisztráció Jónás Albertnek, bukó tesztek és kikapcsolandó tesztekkel kapcsolatban;-;-;10.00
+AF-16339;Ticketek kiírása a CRS No test lefedésekkel kapcsolatban (https://jira.mediso.com/browse/SD-18537);-;-;60.00
+AF-16347;Szanyi Bálint helyének elõkészítése (gépek elpakolása, internet elvitele, 220V-os hálózati aljzatok felszabadítása);-;-;60.00
+AF-16346;image visszahúzás;2026-01-12 08:21:50;2026-01-12 08:42:50;21.00
+AF-16347;Szanyi Bálint érkeztetése, gép kikérés, beüzemelés, körbevezetés, adminisztráció Brigivel ;-;-;30.00
+AF-16339;Ticket adminisztráció (meglévõ ticketek kiosztása, új ticketek fölvétele);-;-;30.00
+AF-16347;Megbeszélés: Klinikai fejlesztési feladatok / státusz;2026-01-12 10:18:14;2026-01-12 11:24:23;66.15
+AF-16347;Szanyi Bálint körbevezetés;-;-;30.00
+AF-16347;meeting: General Software Development;-;-;35.00
+AF-16347;SW-GANTRY R3 Feladatok;-;-;60.00
+AF-16347;megbeszélés Kis Bálinttal, a verifikációs terveirõl;2026-01-12 16:14:59;-;45.00
+AF16347;Meeting: SW-FW R3 Feladatok;2026-01-13 08:00:53;2026-01-13 09:23:54;83.03
+AF-16347;standup, teszt protokollok összegyûjtése, futtathatóság ellenõrzése, teszt környezetek update-elése confluence-en.;-;-;120.00
+AF-16347;Teszt protokollok futtathatóságának vizsgálata.;2026-01-13 11:52:08;2026-01-13 13:07:58;75.84
+;Szanyi Bálint oktatási terv összeállítása Fekete Tímeával;-;-;30.00
+;Meeting: Megbeszélés Kis Bálinntal (Software Test Team Lead Meeting);-;-;30.00
+AF-16347;Meeting: SPECT R3 Feladatok;2026-01-13 14:10:35;2026-01-13 14:30:25;19.82
+;SwVPr Dokumentumokban jelezni, hogy mennyi teszt nincs még megírva. Ezekhez kell még teszteket írni;-;2026-01-13 15:20:12;69.62
+AF-16347;SwVPr Dokumentumokban jelezni, hogy mennyi teszt nincs még megírva. Ezekhez kell még teszteket írni;2026-01-14 07:11:16;2026-01-14 08:06:05;54.81
+;Meeting: FW: PET R3 Feladatok;2026-01-14 08:06:47;2026-01-14 09:15:49;69.02
+AF-16347;SwVPr Dokumentumokban jelezni, hogy mennyi teszt nincs még megírva. Ezekhez kell még teszteket írni;2026-01-14 09:17:20;2026-01-14 10:20:25;63.08
+;gantry betanítás Szanyi Bálinntal és Kotroczó Nándorral.;2026-01-14 10:24:55;2026-01-14 11:31:20;66.43
+;Install test: 3.7.43-Install;2026-01-14 11:31:26;2026-01-14 14:15:43;164.27
+;Install teszt (hibakeresés a 10.2.1.85-ön);-;-;30.00
+;Meeting: CT R3 Feladatok;-;-;60.00
+;ticketek visszatesztelése (igazából 13:30-túl már ez megy, az elõtt meg install test + gép élesztés) hazamenetelig;2026-01-15 14:16:58;-;-1441.25
+;Megbeszélés kotroczó Nándorral Szanyi Bálint betanítááról;2026-01-16 07:07:42;-;30.00
+;Mikrotik összeközéssel kapcsolatos infok beszerzése PC szereldébõl;-;-;15.00
+;Verifikációs terv kitöltése Kis Bálintnak;2026-01-16 07:45:21;2026-01-16 15:25:39;400.31
+;Meeting: Túlmunka / Ticketek;-;-;30.00
+;ticket visszatesztelés:
+https://jira.mediso.com/browse/SD-17303;-;-;30.00
+;Megbeszélés Jónás Alberttel gép telepítés és fejlesztõ környezet beállítással kapcsoaltban;2026-01-16 16:01:27;-;-35.80
+;Nucline PC image fixálás, mikrotik router beállítás;-;-;90.00
+;meeting: IVXP & IVF tesztelések a közel (és távol) jövőben
+9:30 - 10:00;-;2026-01-19 09:57:52;30.00
+;meeting: Klinikai fejlesztési feladatok / státusz;2026-01-19 10:17:11;-;60.00
+SD-18598;Install teszt;-;-;120.00
+;FFU tool ssd-rõl futtatásának tesztelése;-;-;90.00
+SD-18598;install test, issue vissza tesztelés, MSQ invesztigáció;-;-;120.00
+;5070-es kártyák átvétele a raktárból;-;-;20.00
+;image-ek javítása a teszt PC-ken.;-;-;60.00
+SD-18598;ticket visszatesztelés 3.7.44-es builden;-;-;30.00
+;Meeting: SPECT/CT/PET R3 Feladatok;-;-;120.00
+;GPU csere, VGA probléma felmérés, standup;2026-01-21 07:26:25;2026-01-21 10:23:56;177.52
+SD-18598;ticket visszatesztelés: SD-18593, SD-18572;2026-01-21 10:31:34;2026-01-21 12:31:35;120.01
+;TÉR dokumentumok kitöltése;2026-01-21 12:31:45;2026-01-21 16:03:11;211.43
+;issue vissza tesztelés: SD-17968;-;-;30.00
+AF-16347;TÉR - Reuss András (kb 8-9-ig);-;-;60.00
+;ticket visszatesztelés (kb 9:00-10:00);-;-;60.00
+;TÉR megbeszélés Jónás Alberttel 12:00-13:00;-;-;60.00
+;TÉR dokumentum kiegészítése, emlkeztetõk megírása a begyûjtött adatokból (unit test bõvülés, CT szimulátor review, "mit csinálnak más csapatok" infok összegyûjtése);-;-;60.00
+;ticket visszatesztelés és invesztigálás (délelõtt kb 10:00-11:00 délután  15:00-16:00);-;-;120.00
+;Reuss Andrással megbeszélni a CT szimulátor fejlesztés további menetét, ticketek felvétele;-;-;30.00
+;test PC booking megoldás keresése (ne tudjon más bejelentkezni a gépre, ha valaki bent van, );-;-;30.00
+SD-17968;ticket visszatesztelés;-;-;60.00
+;TÉR értékelés Rigó Marcell;-;2026-01-23 09:51:58;60.00
+;TÉR adminisztráció (doksi kitöltés, kivonat készítése Rigó Marcellnek és elküldés);-;-;30.00
+;megbeszélés Balogh Lacival a service tesztek megírásának nehézségeirõl és az új R3-as fejlesztések tesztelhetetlenségérõl.;-;-;45.00
+;Install teszt - image készítés és az aktuális állapotról. ;-;-;30.00;2026-01-26
+;MSQ refresh gomb funkció invesztigálás, beszélgetés Barna Zsolttal, hogy honnan jött az igény és miért úgy mûködiik, ahogy;-;-;30.00;2026-01-26
+SD-17968;SD-17968 retest, info szerzés Rózsa Rudolftól, hogy hogy kell ellenõrizni a hibát, vissza tesztelés;-;-;60.00;2026-01-26
+AF-13364;Invesztigáció, hogy hogyan is kellene ezt tesztelni;-;-;45.00;2026-01-26
+AF-16347;Beszélgetés Balogh Lászlóval a további R3-as változtatásokról;2026-01-26 09:44:06;2026-01-26 10:21:33;37.45;2026-01-26
+AF-16347;Meeting: Klinikai fejlesztési feladatok / státusz, gép igénylés Samu Pétertõl Czulinka Gergelyen keresztül.;2026-01-26 10:22:32;2026-01-26 12:15:03;112.51;2026-01-26
+AF-16347;Software Team Lead;2026-01-26 12:33:51;2026-01-26 12:59:59;26.13;2026-01-26
+SD-18667;Install teszt image visszahúzás, Fábián Gáborral egyeztetés a visszatesztelendõ ticketek listájáról;2026-01-26 13:25:01;2026-01-26 14:44:10;79.16;2026-01-26
+AF-16347;Kotrocz Nándor  04801-R dokumentum aláírása;-;-;15.00;2026-01-26
+SD-18667;Install teszt a THIN MAN gépre (késõbb nyomtam start-ot, így inkább fél óra);2026-01-26 15:46:53;2026-01-26 16:02:35;15.70;2026-01-26
+SD-18667;MIQC fagyés invesztigáció;-;-;30.00;2026-01-26
+AF-16347;Teszt protokoll azonosítót nézni/protokollt csinálni a PET recon teszteknek. Tesztek protokolljainak listázása, ellenõrzés, ohgy a requirementekhez tartozó tesztek melyik , meglévõ protokollokban vannak már benne;2026-01-27 07:18:27;2026-01-27 08:32:56;74.48;2026-01-27
+AF-16347;Kiegészíteni a kamerás teszteket a "collsison"-t tartalmazó tesztekkel. Ezeket is át kell írni, hogy kell hozzájuk igazi kamera, standup;2026-01-27 08:38:25;2026-01-27 09:44:23;65.97;2026-01-27
+AF-16347;Sgítségnyújtás Gróf Lacinak a win11-re történõ nucline telepítéssel és a konfigurációs script elkészítésével kapcsolatban;-;-;30.00;2026-01-27
+AF-16347;04812-R report review, levél az észrevételekröl Gyatyel Gyurinak és Fazekas Sándornak;-;-;15.00;2026-01-27
+AF-16347;Test Plan frissítése, összerakása Interview XP verifikációhoz, levél Fegyvári Andrásnak, a végrehajtás megszervezésérõl., meeting: SPECT/CT/PET R3 Feladatok, oktatás Szanyi Bálintnak a teszt protokollokról, ;2026-01-27 10:44:56;2026-01-27 16:06:13;321.28;2026-01-27
+AF-16347;license kérés a THIN MAN test PC-hez, mert a clean win11 installálás után más lett a gép neve és így nem megy a régi license, JIRA ticket fölvétel Hegyi Zsoltnak DICOM tesztek win11 kompatibilissé tételéhez (30 perc);2026-01-28 07:14:28;2026-01-28 07:33:32;19.06;2026-01-28
+;MIQC fagyás invesztigálás,a PUMA használathoz szükséges port engedélyezés invesztigálása, USB selector keresés (7 gép használata 1 bill+egérrel);2026-01-28 07:34:30;2026-01-28 09:31:55;117.42;2026-01-28
+;10.2.1.85 reemote elérés konfigurálás
+;2026-01-28 09:43:39;2026-01-28 10:06:46;23.12;2026-01-28
+SD-17968;Tisztázni kell, hogy zárható e.;2026-01-28 10:20:10;2026-01-28 11:44:12;84.03;2026-01-28
+;teszt protokollok ready for execution állapotba tétele (Albertnek kiosztva);2026-01-28 12:01:35;-;15.00;2026-01-28
+;Meeting: InterView XP 3.09 (AnyScan R3) Feladatok;2026-01-28 12:02:11;2026-01-28 13:10:01;67.84;2026-01-28
+;Meeting: InterView FUSION 3.14 (AnyScan R3) Feladatok;2026-01-28 13:10:27;2026-01-28 13:44:22;33.91;2026-01-28
+;meeting: Clari <-> cm-srv működés feltárás;-;-;60.00;2026-01-28
+;image visszahúzas pc-kre (thin man, 10.2.1.86, 87), telepítõk másolása (anyscan 3.7.45, IVXP 3.9.25);-;-;60.00;2026-01-28
+;Megbeszélés Gróf Lászlóval a kiértékelõ OS clari fejlsztéssel kapcsolatos, user konfigurációs requirementekrõl (30 perc);2026-01-29 10:40:10;2026-01-29 10:53:14;13.07;2026-01-29
+SD-17968;Egyeztetés Tímár Andrással a SD-17968 ticket fejlesztésével kapcsolatban;-;-;30.00;2026-01-29
+SD-18667;ticket visszatesztelés: SD-17968, ticket fölvétel: AF-16549;2026-01-29 11:35:06;2026-01-29 13:15:15;100.16;2026-01-29
+AF-16347;Meeting: AS - Build és Rendszertesztelés megbeszélés;2026-01-29 13:16:03;2026-01-29 13:43:52;27.80;2026-01-29
+;Ticket visszatesztelés Kukuts Kornélnak (IVF, IVXP), Reuss Andrással requirement reivew észrevétel kidolgozása (FR209484) review dokumentum kiadása, pdf-esítése, kiegészítés hozzáadása a requirement review dokumentumhoz, TÉR megbeszélés Kis Bálinttal;-;-;90.00;2026-01-29
+;Ticket visszatesztelés Kukuts Kornélnak: AF-14467,  AF-16287, AF-16135
+A gépek elõkészítése történt meg;-;-;120.00;2026-01-29
+;ticket visszatesztelés: SD-18648, SD-18623 (invesztigálás alatt), SD-18606, SD-17353, SD-18688;-;-;240.00;2026-01-30
+;5070-es kértya beillesztése kiértékelõ PC-be táp elsoztó segítségével;-;-;90.00;2026-01-30
+;ticket visszatesztelés;-;-;30.00;2026-02-02
+;standup, segítségnyújtás Albertnek cockpittel kapcsolatban, teszt protokollok ready for execution állapotba tétele;2026-02-02 09:07:45;2026-02-02 11:34:41;146.92;2026-02-02
+;teszt protokollok ready for execution állapotba tétele, meeting: Software Team Lead ;2026-02-02 12:29:39;2026-02-02 16:09:33;219.89;2026-02-02
+;Install teszt (kb fél 4-kor már elindult);2026-02-02 16:09:39;2026-02-02 17:27:12;77.55;2026-02-02
+;ready for execution állaptba tétel (a stopot kell nézni);-;2026-02-02 17:38:06;88.46;2026-02-02
+;Teszt protokollok ready for execution-be tétele, segítségnyújtás Balogh Lacinak, tesztek defined-be tétele a service-ekhez;-;2026-02-03 09:06:59;120.00;2026-02-03
+;Terv készítés Anyscan végrehajtással kapcsolatban;2026-02-03 09:09:02;2026-02-03 10:19:34;70.53;2026-02-03
+;VGA táp elosztó beszerzés;-;-;30.00;2026-02-03
+;5070 berakása kiértékelõ PC-kbe
+;-;-;30.00;2026-02-03
+;kiértekel õ tesztek protokollba rakása, ticket fölvétele a végrehajtáshoz, ready for execution-ba tétel;-;-;120.00;2026-02-03
+;17:00-ig confluence oldalak töltése a schedule-lel, F272 kamera megnézése;-;-;120.00;2026-02-03
+AF-16347;Win11 föltétele a JUMBO gépre;2026-02-04 08:43:10;2026-02-04 10:29:30;106.33;2026-02-04
+AF-16347;3.7.46 telepítése a JUMBO gépre;2026-02-04 10:29:47;2026-02-04 12:05:05;95.29;2026-02-04
+;Meeting: InterView XP 3.09 (AnyScan R3) Feladatok, InterView FUSION 3.14 (AnyScan R3) Feladatok ;2026-02-04 12:05:48;-;120.00;2026-02-04
+;F272 frissítése 47-e builddel, FAT MAN frissítése 47-es builddel, megkérdezni, ohy hogy áll a  gyártás alatt lévõ test PC;2026-02-04 15:01:24;-;-176.32;2026-02-05
+;GADGET gépben VGA csere 1060->3070;2026-02-05 07:21:21;2026-02-05 07:32:53;11.53;2026-02-05
+;support a teszt végrehajtáshoz (az elõzõ óta eltelt idõ), ticket vissza tesztelés, win11 install (nap végéig);-;-;11.53;2026-02-06
+;ticket visszaellenõrzés: SD-18668, SD-18723, support a release teszteléshez;2026-02-06 07:30:30;-;-1437.61;2026-02-09
+;Protokoll átnézés: Phisiology trigger R peak;-;-;30.00;2026-02-09
+;SwVPr - Nucline, Nucline Installer - teszt protokoll átnézése, MSQ protokoll végerhajtása, LULU gép hiba invesztigáció és elküldés javításra;-;-;-1437.61;2026-02-09
+;Install test(13:30 körül), SwVPr - Nucline, Nucline Installer protokoll végrehajtás, image visszahúzás demo és workstation telepítéshez, óranyilvántartás kitöltés (az utolsó 1.5 óra);2026-02-09 13:42:28;2026-02-09 18:39:49;297.36;2026-02-09
+SD-18479;DICOM teszt protokoll futtatás megbeszélés Hegyi Zsolttal;-;2026-02-10 07:14:28;15.00;2026-02-10
+AF-16347;Ticket zárások: SD-18699, SD-18139, SD-18715;-;-;15.00;2026-02-10
+;install teszt workstation mode, Protokollok kiosztása végrehajtásra barna Zsoltéknak (SwVPr - Nucline, Transfer Manager, SwVPr - Nucline, Cybersecurity), tempo adminisztrálás;2026-02-10 07:52:16;2026-02-10 08:59:50;67.56;2026-02-10
+;Teszt végrehajtás (TP11342), 11:00-ig (Volt egy adag invesztigálás a protokollal kapcsolatban);-;-;120.00;2026-02-10
+;XP ticket visszatesztelés instruálás Jónás Albertnek, XP ticket visszatesztelés megbeszélés Fegyvári Andrással, XP-s teszt statusz ;-;-;120.00;2026-02-10
+;Teszt végrehajtás support: András - FR225368, Bálint+Gábor - dns mask servernek kellene IP-t adnia a gantrynek (45 perc), teszt végrehajtás Athena OS (2 óra), support Kovács András cockpit (15 perc), teszt protokoll kiértékelés Gróf Lászlóval (1,5 óra);-;2026-02-10 17:21:29;330.00;2026-02-10
+;17:40-ig confluecne oldal befrissítése : Bukott protokollokhoz ticket ID és futtató ember beírása;-;2026-02-10 17:40:44;40.00;2026-02-10
+;Megbeszélés Kotroczó Nándival Szanyi Bálint munkájával kapcsolatban (kamera tesztelés, test ticket megnéuzés);2026-02-11 07:52:49;2026-02-11 08:17:27;24.64;2026-02-11
+;9:00-ig - IV test PC-k felvétele foglalhatónak, image készítés , hegyi Zsolt support (a protokollról nem tûnik el a tester) - kb 30 perc;-;2026-02-11 08:59:32;30.00;2026-02-11
+;LULU hibainvesztigálás és újra telepítés Gróf Lászlóval és Németh Zsolttal (VGA nem kerülhet még bele);2026-02-11 09:06:30;2026-02-11 11:26:16;139.77;2026-02-11
+SD-18479;meetingek: InterView XP 3.09 (AnyScan R3) Feladatok, InterView FUSION 3.14 (AnyScan R3) Feladatok;-;-;120.00;2026-02-11
+AF1-6347;Gróf Laci support. remote elérés bekapcsolása LULU gépen;-;-;15.00;2026-02-11
+;remote elérés hiba invesztigáció, 3.7.48 build telepítése LULU test PC-re, ;2026-02-11 14:06:54;2026-02-11 15:10:09;63.25;2026-02-11
+;Megbeszélés Czulinka Gergellyel az új PC image-ével kapcsolatban, 3.7.48 telepítése LULU-ra;2026-02-12 07:21:12;2026-02-12 08:39:59;78.78;2026-02-12
+;Verifikáció manage-elés (protokollok kiosztása, elvégzett protokollok adminisztrálása), standup,IV XP review summary meeting kiírás (résztvevõk összeszedése, schedule kitalálása, stb) ;2026-02-12 08:54:22;2026-02-12 10:21:23;87.02;2026-02-12
+;Ticket visszatesztelés LULU-n
+SD-18774, SD-18688, SD-18299, SD-18775, SD-18623, Megbeszélés Gróf Lászlóval  az Athena OS requirementjeirõl;2026-02-12 10:45:20;2026-02-12 15:49:47;304.45;2026-02-12
+;Elõkészület a "IV XP review summary meeting" meetingre (bukó, nem bukó tesztek, ticketek, stb összeszedése);2026-02-12 15:56:04;2026-02-12 18:00:37;124.55;2026-02-12
+;Teszt végrehajtás status frissítés: Anyscan, megbeszélés Balogh Lászlóval arról, hogy rendszeresen nézni kell a dump könyvtárat
+;2026-02-13 07:30:20;2026-02-13 10:00:38;150.29;2026-02-13
+;meeting: InterView FUSION 3.14 tesztelés előkészítése, Rendszer es Szoftver Teszteles;2026-02-13 10:01:58;-;120.00;2026-02-13
+;Meeting: Rendszer es Szoftver (a stop time-ban benne volt az ebédidõ is, kb 11:00 - 11:47-ig);-;2026-02-13 11:47:22;60.00;2026-02-13
+;teszt protokoll status update,   SwRS - AI Powered CT Organ Segmentator - review és aláírás;2026-02-13 11:49:26;2026-02-13 13:01:01;71.59;2026-02-13
+;Meeting: IV XP review summary meeting;2026-02-13 13:01:44;2026-02-13 14:28:25;86.69;2026-02-13
+;Megbeszélés barna Zsolttal, Megbeszélés Katona Renátával (IVF tesztelés elõkészítés).;2026-02-13 14:34:26;-;65.00;2026-02-13
+;Verification SUmmary Report készítés XP a toppig;-;2026-02-13 17:44:41;190.26;2026-02-13
+;Teszt végrehajtás MSQ - LULU. Teszt protokoll approve Reuss Andrásnak, Meeting: Klinikai fejlesztési feladatok / státusz [In-person];2026-02-16 07:06:57;2026-02-16 12:30:54;323.95;2026-02-16
+;Install test, Meeting: Software Team Lead, IVXP verification summary report készítés (kb 1,5 óra);2026-02-16 12:36:39;2026-02-16 17:08:49;272.18;2026-02-16
+;image készítés az új windows telepítésrõl;2026-02-16 17:08:56;2026-02-16 17:40:29;31.56;2026-02-16
+;clean image visszahúzás 3.7.49 telepítéshez;2026-02-16 17:40:36;2026-02-16 17:51:20;10.72;2026-02-16
+;Test protocol status update;-;2026-02-16 17:59:11;15.00;2026-02-16
+;XP Verification Summary Report update (herpegés NETTÓ 1 óra)
+Közben András support, Albert support;2026-02-17 07:38:15;-;-819.06;2026-02-17
+;Meeting: InterView XP 3.09 (AnyScan R3) Feladatok, InterView FUSION 3.14 (AnyScan R3) Feladatok, SPECT/CT/PET R3 feladatok (12:00-15:00);-;-;-819.06;2026-02-18
+;ticket viszatesztelés  (nap kezdéstõl kb 9-ig);-;-;-819.06;2026-02-18
+;10-tõl FUSION verifikáció elõkészítés (1 óra);-;-;-819.06;2026-02-18
+;FUSION verifikáció elõkészítés (14:30-tól). RC1 backup, Image visszahúzás IV TEST PC II, III-on.
+kritikus additional tesztek hozzáadása kritikus és nem kritiku sprotokollokhoz;2026-02-18 14:52:37;2026-02-18 15:40:22;47.75;2026-02-18
+;Installerek (3.14.4) lemásolása a teszt gépekre (IV Test PC II, III) , telepítés;2026-02-18 15:40:26;2026-02-18 16:48:16;67.83;2026-02-18
+;hazamenetelig: IVF teszt protokoll frissítés (Fekete Dani megkérdezése, hogy a lezárt AF-ekhez tartozó tesztek up to date-ek e?) kb 17:30-ig;-;-;67.83;2026-02-18
+;17:30-18:00 Anyscan test protokoll update, feladatok kiosztása (küldd el approve-ba, valami nem stimmel a protokollal, stb);-;-;67.83;2026-02-18
+;18:20-ig status update és UPDD license próbálkozás;-;-;67.83;2026-02-18
+;UPDD élesztés THIN MAN-en;2026-02-19 08:32:21;2026-02-19 08:35:55;10.00;2026-02-19
+;SWVPR doksi use scenario-k leírása Bálintnak + Julinak (9:30-tól) 9:15-9:30 Gróf lacival megbeszélni, hogy kell neki valamilyen gép (valamilyen R2+ -os);-;2026-02-19 10:18:11;60.00;2026-02-19
+;30 perc - egyeztetés Kovács Ákossal a fairness CRS törlésével kapcsolatban;-;-;105.83;2026-02-19
+;Meeting: AnyScan R3 Build, Software and System Testing;2026-02-19 13:03:06;2026-02-19 13:49:06;46.01;2026-02-19
+;Egyeztetés Gróf Lászlóval a remote elérés visszaállításáról, FUSION futtatandó tesztek összeszedése, frissítése;-;-;46.01;2026-02-19
+;Support a tesztelõknek a modell váltással kapcsolatban, hiba repro és invesztigáció a lassulással kapcsolatban, (megbeszélés Balogh Lacival)kideríteni, hoghy milyen SSD van a teszt PC-kben, vételezni olyat a B30 üzembe állításához.;-;2026-02-20 09:39:48;120.00;2026-02-20
+;IV test PC-k (gen2) beszerzése, beüzemelése (tápelsoztó beszerzés, tápelsoztó rendelés, VGA berakás gépbe, win telepítés, athena futtatás, IV telepítés), install a B30-ra (windows, athena, anyscan );-;-;1236.71;2026-02-23
+;gép elõkészítés, GAIA tesztelés, Renivel megbeszélés FUSION verifikációval kapcsolatban;2026-02-23 07:19:25;2026-02-23 09:24:59;125.57;2026-02-23
+;AthenaOS tezstelés, FUSION protokollok bevétele verifikációba, egyeztetés ALberttel, hogy inkább teszteljen, ne ticket végrehajtson, Annus Krisztiánnak protokoll javítás és új protokollok kiosztása, protokoll javítása, újra adminisztrálása;2026-02-23 09:25:45;2026-02-23 10:18:32;52.78;2026-02-23
+;FUSION - System - Requirements Test Protocol összerakása kiadása Albertnek futtatásra, confluence oldal összeállítása;2026-02-23 10:23:43;-;-5.18;2026-02-23
+;tesztelés Athena (14:00-ig);-;-;-5.18;2026-02-23
+;result approval-okat átrakni executed-be, Meeting: SW-GANTRY/FW R3 Feladatok;2026-02-23 14:04:48;2026-02-23 15:02:48;57.99;2026-02-23
+;Megbeszélés Zsótér Norbival az XP RC2 verifikáció hogyanjáról (verdikt: nem javítunk a protokollokon, selective re-execute);-;-;15.00;2026-02-24
+;7:30-08:00 FUSION verifikáció elõkészítése;-;-;57.99;2026-02-24
+;XP-s protokoll kigenerálása, végrehajtás ellenõrzése, teszt javítások esztimálása, Annus Krisztián update-elése Anyscan installal kapcsolatban 11:00-tól 11:15-ig;-;-;57.99;2026-02-24
+;cybersecurity test protokoll végrehajtás elakadás  megbeszélés kezdeményezése, Új verifikációs kör kezdeményezése;2026-02-24 12:39:27;2026-02-24 13:17:54;38.45;2026-02-24
+;meeting: Kis Bálinttal f2f (13:30);-;2026-02-24 14:24:50;60.00;2026-02-24
+;Megbeszélés és segéd dokumentum gyártása Albertnek a FUSION teszteléssel kapcsolatban (arra van szükség, hogy akritikus komponens tesztek requirementjeibõl származó CRS-ek tesztjei hajtódjanak végre, mert ez verifikálja a system tesztet) ;-;-;90.00;2026-02-24
+;FUSION verification summary report megcsinálása;-;-;90.00;2026-02-24
+;XP test protokoll lezárása, verification summary report frissítése, megbeszélés Balogh Lacival (AF-16216);-;-;90.00;2026-02-24
+;PET CRS - SRS fedés lista létrehozása, hogy ki lehessen pipálni azt, amit Czulinka Gergeléyék system test-ben meg tudnak csinálni (7:15), Megbeszélés Kotroczó Nándival és Szanyi Bálinttal a gantry protokollok cockpites töltésével kapcsolatban -> serial logger élesztés ;-;-;105.37;2026-02-25
+;30 perc - Kellös Gyurival és Németh Gáborral egyeztetni, hogy mikor és hogyan fusson a Kellös Gyuri tesztje;-;-;105.37;2026-02-25
+;Kotroczó Nándival megbeszélés, hogy a fej miért nem megy el addigf, ameddig kellene (340), az eredmény megosztása Kellös Gyurival;-;-;30.00;2026-02-25
+;Meeting: InterView XP 3.09 (AnyScan R3) Feladatok 10:00- 11:00;-;-;105.37;2026-02-25
+;egy fél óra biztos volt - XP RC2 elõkészítése, 13:00-tól: Meeting: InterView FUSION 3.14 (AnyScan R3) Feladatok, SPECT/CT/PET R3 feladatok, Interview XP Rc2 update Little Boy-ra, Rc2 teszt protokoll confluence oldal összeállítása;-;-;105.37;2026-02-25
+;interview XP test protokoll ellenõrzés, hogy minden bukott teszt bekerült e, meg olyanok is benne legyenek, hogya test passed, de van bukott requirement 6:30-ig (2 óra tuti volt);-;-;105.37;2026-02-25
+;Kellös Gyurinak teszt indítás a B30-on;-;2026-02-26 07:43:54;45.00;2026-02-26
+;XP protokoll export RC1 45 perc, új végrehajtás kezdése az RC2 tesztelésével kapcsolatban;-;-;2584.43;2026-02-26
+;XP verification summary report véglegesítés : 30 perc, ;-;2026-02-26 09:00:19;30.00;2026-02-26
+;Verification Protocolok aktualizálás, végrehajtások végigvitele a gantry server basic functions protokollon Szanyi Bálinttal (9 modellen) kb 11:45-ig ez ment;-;2026-02-26 11:16:01;2796.55;2026-02-26
+;Verification Summary Report megcsinálása XP RC2-re (7:30-tól), megbeszélés Jónás Alberttel egy visszajelzésrõl, amit kapott ;2026-03-02 08:09:20;2026-03-02 09:18:53;69.56;2026-03-02
+;R3 Anyscan verificatioon report update;2026-03-02 09:19:12;2026-03-02 10:18:07;58.92;2026-03-02
+;Meeting: Klinikai fejlesztési feladatok / státusz, IVXP verifikáció;2026-03-02 10:19:00;2026-03-02 12:17:38;118.64;2026-03-02
+;Meeting: Software Team Lead (30-kor)13:00-ig;2026-03-02 12:40:16;-;-22.63;2026-03-02
+;XP telepítés gen 2-es gépre, NeuroQ  hiba invesztigációhoz, Meeting: SW-GANTRY/FW R3 Feladatok;2026-03-02 13:40:38;-;-82.99;2026-03-02
+;Segítségnyújtás Fábián Gábornak tera tomo - subsystem manager teszteléssel kapcsolatban, XP-s maradék tesztek végrehajtásának manage-elése és 16:15-ig;-;-;-82.99;2026-03-02
+;IVXP Verification Summary Report update-elés RC2-höz (7:30-tól);-;2026-03-03 11:46:51;480.00;2026-03-03
+;12:00 - ticket vissza tesztelés;-;2026-03-03 13:06:14;66.00;2026-03-03
+;Meeting: Software Test Team Lead Meeting 13:30-14:15	;-;2026-03-03 14:17:14;45.00;2026-03-03
+;Software Verification Protokollok update-elése;-;-;60.00;2026-03-03
+;install test (beérkezéstõl 08:30-ig);-;2026-03-04 08:32:24;90.00;2026-03-04
+;XP Verification summary report  update a robot FW teszt reporttal;-;2026-03-04 10:52:58;120.00;2026-03-04
+;Meeting: InterView XP 3.09 (AnyScan R3) Feladatok,  InterView FUSION 3.14 (AnyScan R3) Feladatok, SPECT/CT/PET R3 feladatok;2026-03-04 12:02:27;-;180.00;2026-03-04
+;tempo töltés;-;2026-03-04 16:20:45;90.00;2026-03-04
+;Interview XP protokoll zárások és verification summary report töltése (egyeztetni kellett a cockpites teszteket a confluence-es futtatási eredményekkel);2026-03-05 07:38:55;2026-03-05 13:07:31;328.60;2026-03-05
+;Meeting: AnyScan R3 Build, Software and System Testing;2026-03-05 13:07:39;2026-03-05 13:36:24;28.75;2026-03-05
+;Táp elosztó átvétele a raktárból;2026-03-05 13:39:35;2026-03-05 13:45:46;6.19;2026-03-05
+;Verification summary report ellenõrzés, update, Marci support (14:00-tól);-;2026-03-05 16:56:28;180.00;2026-03-05
+;anyscan test protocol update;2026-03-06 07:36:42;2026-03-06 07:59:01;22.32;2026-03-06
+;08:00-tól Megbeszélés/ support Balogh Lacival atz UPDD SOUP dokumentumával kapcsolatban, túrák összegyûjtése, cockpit support Reuss Andrásnak (egy protokollban nem jól jelennek meg a tesztek), túlmunka összegyûjtése, Egyeztetés Zsótér Norbival egy olyan doksiról, amiben le van írva, hogy milyen gépben mi a HW.;2026-03-06 08:12:25;2026-03-06 08:59:51;47.44;2026-03-06
+;standup, B30 megnézése, hogy frissíthetõ e;2026-03-06 09:00:00;2026-03-06 09:20:53;20.89;2026-03-06
+;confluence frissítés anyscan protokollok állapotával;2026-03-06 09:36:29;2026-03-06 10:32:07;55.65;2026-03-06
+;5070 belerakása a lenovo gen2 PC-be és élesztés;2026-03-06 10:32:38;2026-03-06 14:36:26;243.79;2026-03-06
+;MSQ tesztelés thin man-en 13:00-tól;-;-;243.79;2026-03-06
+;Verification sumary report átnézése, aláírása;2026-03-09 07:01:34;2026-03-09 07:39:18;37.72;2026-03-09
+;Anyscan verification protokoll állaptok frissítése (elõzõ óta);-;2026-03-09 08:40:28;98.89;2026-03-09
+;ticket visszatesztelés - SD-17968, elõzõ óta;-;2026-03-09 10:15:56;194.37;2026-03-09
+;Meeting: Klinikai fejlesztési feladatok / státusz;2026-03-09 10:16:41;2026-03-09 12:09:59;113.31;2026-03-09
+;Meeting: Software Team Lead 13:00-ig;2026-03-09 12:30:30;-;-20.52;2026-03-09
+;Meeting:SW-GANTRY/FW R3 Feladatok, Megbeszélés Bálinttal arról, hogy melyik verziókon lett végrehajtva az R2+;2026-03-09 14:03:19;2026-03-09 14:53:59;50.66;2026-03-09
+;tempo kitöltés (nap végéig);2026-03-09 14:58:21;-;-4.37;2026-03-10
+;ticket visszatesztelés SD-17968, megbeszéléls Szabó Balázzsal a tickettel kapcolatban;2026-03-10 07:10:37;2026-03-10 07:39:15;28.64;2026-03-10
+;ticketek kiosztása  visszatesztelésre, info-k beszerzése ahhoz, hogy kell e/hogyan kell tesztelni (SD-18928-nél probléma);2026-03-10 07:50:22;2026-03-10 08:23:21;32.98;2026-03-10
+;FAT MAN frissítés 52-re, segítségnyújtás Ispanovity Antalnak, standup;2026-03-10 08:29:22;2026-03-10 09:41:13;71.86;2026-03-10
+;ticket adminisztráció a Szabó Balázzsal megbeszéltek alapján (Reconstructed Spatial Resolution with Scatter tesztek eredménye nem jelenik meg az MSQ-ban.), System test csapat támogatás sound system tesztelésben (11:00-ig);-;2026-03-10 12:16:56;227.56;2026-03-10
+;win telepítés és konfig az egyik gyártásos kamerán;2026-03-10 12:17:04;2026-03-10 14:10:11;113.10;2026-03-10
+;Ispanovity Antal support requirement reviewban, installer elvitele a gyártásnak, standup;2026-03-11 07:39:46;2026-03-11 10:24:55;165.15;2026-03-11
+;XP Verification summary report  frissítés ;-;-;30.00;2026-03-11
+;FUSION support a CD írásos tesztekkel kapcsolatban;2026-03-11 10:47:35;2026-03-11 11:27:31;39.93;2026-03-11
+;Meeting: InterView FUSION 3.14 (AnyScan R3) Feladatok;2026-03-11 13:01:34;2026-03-11 13:56:34;55.00;2026-03-11
+;Meeting: SPECT/CT/PET R3 feladatok;2026-03-11 14:12:39;2026-03-11 15:20:49;45.00;2026-03-11
+;Verification summary report frissítés XP;2026-03-12 07:22:39;2026-03-12 08:37:23;74.72;2026-03-12
+;05288-D.docx kitöltése, ki nem töltés megbeszélése Bálinttal, indoklás megfogalmazása, megbeszélése az érintettekkel, stadup;2026-03-12 08:40:11;2026-03-12 09:29:20;49.16;2026-03-12
+;Verification summary report további frissítések, protokollok kiosztása végrehajtásra Fábián Gábornak, Kamera intézés valami Czimmer Sándornak ;2026-03-12 09:38:50;2026-03-12 11:37:30;118.65;2026-03-12
+;Verification Protocoll-ok status frissítése;2026-03-12 11:37:49;2026-03-12 12:36:58;59.16;2026-03-12
+;ticket visszatesztelés: SD-19069;2026-03-12 12:44:42;2026-03-12 13:30:10;45.46;2026-03-12
+;Megbeszélés: AnyScan R3 Build, Software and System Testing, SwVSR es LKRA áttekintés, Daniékkal;-;2026-03-12 14:28:16;103.57;2026-03-12
+;ticket visszatesztelés: AF-17114 (hazamenetelig);-;-;-2026-03-12
+;Kiderítettem, hogy hol áll az RC3, megcsináltam az RC3 confluence oldalt;-;2026-03-13 09:25:32;60.00;2026-03-13
+;Mikrotik router élesztés;-;2026-03-13 12:56:04;1451.37;2026-03-13
+;XP frissítés RC3 teszteléshez (license-elést Alvincz Gergely csinálja);2026-03-13 12:56:23;2026-03-13 14:20:15;83.86;2026-03-13
+;protokoll állapotok frissítées;2026-03-13 14:20:51;2026-03-13 14:42:33;21.70;2026-03-13
+;ticket visszatesztelés: SD-19098;-;2026-03-13 15:21:57;61.10;2026-03-13
+;verification protocol darabszám egyeztetés a confluence-en és cockpitben, B44 élesztés;2026-03-17 07:44:16;2026-03-17 10:56:46;192.51;2026-03-17
+;XP SWVPr befrissítése, B45 élesztés (03-17 nap végéig);2026-03-17 12:07:12;2026-03-18 07:10:12;1143.01;2026-03-18
+;XP protokoll frissítése (critical manual), Meeting: InterView XP 3.09 (AnyScan R3) Feladatok,  InterView FUSION 3.14 (AnyScan R3) Feladatok, SPECT/CT/PET R3 feladatok;2026-03-18 07:12:19;2026-03-18 15:14:50;440.00;2026-03-18
+;Verification Summary Report  frissítés XP-re (RC3);2026-03-18 15:17:29;2026-03-18 15:36:16;18.78;2026-03-18
+;Anyscan SWVpr-ek állapotának frissítése, dokumentumok kigenerálása, hogy meglegyen az összes komment és kommentek eltávolítáésa, hogy csak a ticket azonosító legyen a komment mezõben;2026-03-19 07:22:37;2026-03-19 08:38:50;76.21;2026-03-19
+;IVXP verification summary report véglegesítése, standup, Ispanovity Antalnak review-zni a dokumentumát;2026-03-19 08:39:05;2026-03-19 12:03:53;204.80;2026-03-19
+;gantry kliens teszt árfedés keresés, AnyScan R3 Build, Software and System Testing, verification summary report véglegesítés, kiadás;2026-03-19 12:46:07;2026-03-19 14:21:23;95.27;2026-03-19
+;gantry client tesztek összehasonlítása a system test-ekkel;2026-03-19 14:56:16;2026-03-19 16:23:36;87.34;2026-03-19
+;;-;-;87.34;2026-03-19
+;Verification summary report kitöltés - FUSION;2026-03-20 07:32:42;2026-03-20 11:00:50;208.13;2026-03-20
+;anyscan protokollok status update-je, "komment mezõkbe csak ticket azonosítók kerüljenek" megoldása, Athena föltelepítése Gróf Lacival, 55-ös verzió telepítése és hiba jelzése Gróf Lacinak;2026-03-20 12:39:03;2026-03-20 15:14:37;155.57;2026-03-20
+;végrehajtandó protokollokk kiosztása;2026-03-23 07:49:43;2026-03-23 08:19:28;29.75;2026-03-23
+;athena tesztelés;2026-03-23 08:19:38;2026-03-23 10:13:07;113.49;2026-03-23
+;Nucline install tesztelés;2026-03-23 10:13:19;2026-03-23 11:31:39;78.33;2026-03-23
+;image visszahúzások LULU-ra (távozásig);2026-03-24 14:00:00;2026-03-24 ; ;2026-03-24
+;Megbeszélés Kis Bálinttal ;2026-03-24 13:30:00;2026-03-24 14:00:00;30.00;2026-03-24
+;FUSION-os confluence oldal frissítése a protokollokkal és ticket állapotokkal (kezdetektől fél óra);2026-03-25 09:32:13;2026-03-24 09:32:13;0.01;2026-03-24
+;Athena tesztelés, installer tesztelés (beérkezéstõl 09:00-ig);-;2026-03-25 09:38:58;6.75;2026-03-25
+;Test protokollok állapotának frissítése, le nem futtatott protokollok keresése és kiosztása;2026-03-25 09:45:00;2026-03-25 10:18:13;33.21;2026-03-25
+;gantry kliens protokollok összehasonlítása a system tesztelõk ;2026-03-25 10:30:10;2026-03-25 12:40:42;130.53;2026-03-25
+;Meeting: InterView XP 3.09 (AnyScan R3) Feladatok,  InterView FUSION 3.14 (AnyScan R3) Feladatok, SPECT/CT/PET R3 feladatok (12:00-tól);2026-03-25 12:41:19;2026-03-25 14:31:22;110.05;2026-03-25
+;Verification Protocol status-ok update-elése (a meeting vége óta);2026-03-25 14:52:19;2026-03-25 15:11:56;19.61;2026-03-25
+;System tesztek ellenõrzése, hogy mit lehet a gantry client protokollokból végrehajtani, XP performance teszt buló tesztekkel kapcoslatos teendõk  kitalálása, nyitott verifikációs protokollok manage-elése, statusok frissítése, support issue visszatesztelésben Reuss Andrásnak (SD-17968, SD-18897, SD-19154);2026-03-26 07:11:43;2026-03-26 16:03:42;531.98;2026-03-26
+;óranyilvántartás kitöltése centerben;2026-03-27 07:35:09;2026-03-27 07:37:13;2.05;2026-03-27
+;teszt protokollok status ellenõrzése;2026-03-27 07:37:30;2026-03-27 09:19:51;102.35;2026-03-27
+;komponens szinten pipálható gantry client tesztek keresése  system tesztek  közül;2026-03-27 09:20:36;2026-03-27 10:26:21;65.75;2026-03-27
+;FUSION Verification summary report elkészítése;2026-03-27 10:26:33;2026-03-27 10:50:29;23.94;2026-03-27
+;system testek összefésülése a gantry clienttel kapcsolatban, AF-15950 ticket elemzése, hogy vissza tesztelhetõ e, minek van R4-ben, stb;2026-03-27 12:13:44;2026-03-27 13:55:00;101.27;2026-03-27
+;IVF verification summary report  rendberakás (hazamenetelig);-;-;101.27;2026-03-27
+;FUSION VerificationSummary Report elõkészítése;2026-03-30 07:55:42;2026-03-30 10:22:21;146.66;2026-03-30
+;Meeting: Klinikai fejlesztési feladatok / státusz;2026-03-30 10:22:46;2026-03-30 11:35:24;72.64;2026-03-30
+;Gantry client tesztek összefésülése, meeting: Software Team Lead, SW-GANTRY/FW R3 Feladatok;2026-03-30 11:52:53;2026-03-30 14:28:50;155.94;2026-03-30
+;kezdéstõl - FUSION Verification summary report elkészítése, aláírásra bocsájtása, TEst Review - Athena OS;-;2026-03-31 13:59:04;300.00;2026-03-31
+;Megbeszélés papdi Bencével a SWVPr-ek végrehajtásával kapcsoatban (1 óra, kb 14:00-15:00);-;2026-03-31 15:13:00;60.00;2026-03-31
+;Bálintnak volt kb 4 protokollja, amire nem volt/nincs végrehajtás. Erre kerestem meg a végrehajtásokat (TP11420, TP11439, TP11493, TP11514, TP11515);-;-;60.00;2026-03-31
+;hazamenetelig Gantry client system tesztek eredményeinek átnézése;-;-;30.00;2026-03-31
+;Gantry client tesztek összehasonlítása system tesztekkel;2026-04-01 07:23:54;2026-04-01 11:12:38;228.75;2026-04-01
+;Meeting:InterView XP 3.09 (AnyScan R3) Feladatok, InterView FUSION 3.14 (AnyScan R3) Feladatok;2026-04-01 12:04:59;2026-04-01 15:14:56;140.00;2026-04-01
+;FUSION RC2-vel kapcsolatos cockpit munkák (hazamenetelig);-;-;189.96;2026-04-01
+;FUSION - tesztek sync-eléáse és defined-be állítása (érkezéstõl);2026-04-02 07:55:14;2026-04-02 08:08:37;13.37;2026-04-02
+;gantry client tesztek összenézése ;-;2026-04-02 09:26:08;90.90;2026-04-02
+;57-es build telepítés, issue visszatesztelés (11:00-ig);-;-;90.90;2026-04-02
+;Meeting: AnyScan R3 Build, Software and System Testing;-;2026-04-02 13:18:58;20.00;2026-04-02
+;CanEther UI tesztelés kiosztás Tímár Andrásnak;-;-;10.00;2026-04-02
+;FUSION terhelés teszt support;-;-;15.00;2026-04-02
+;CanEther ui teszt végrehajtás;-;-;15.00;2026-04-02
+;ticket visszatesztelés: SD-19047, protokoll újra futtatás: SD-18954 ticket javítással kapcsolatban;-;-;323.73;2026-04-09
+;;-;-;323.73;2026-04-09
+;Test protokoll eredmények összerakása Balogh Lacinak érkezéstõl ké 14:00) ;2026-04-10 08:01:52;-;-11202.89;2026-04-10
+;Szanyi Bálint próbaidõ végi értékelés (14:30-15:15);-;2026-04-10 15:18:04;45.00;2026-04-10
+;érkezéstõl - anyscan frissítés fat man-en, SOUP dokumentum aktualizálásVarga Andrásnak, nemzethalál meeting, SWVR, LKRA dokumentumok aláírása;-;2026-04-13 16:43:36;480.00;2026-04-13
+;SOUP-ok összeszedése 5288-D doksihoz, R3 release dokumentum aláírások;2026-04-14 07:40:16;2026-04-14 21:19:44;819.47;2026-04-14
+;SOUP dokumentum 05288-R kitöltése;2026-04-15 07:35:18;2026-04-15 11:36:16;240.96;2026-04-15
+;Meeting: InterView XP 3.09 (AnyScan R3) Feladatok (Fejlesztés 2 (TV) F1/314), InterView FUSION 3.14 (AnyScan R3) Feladatok, SPECT/CT/PET R3 feladatok, verification summary report elõkészítrése FUSION-re, "lyukak" összeszedése a trace dokumentumokban;2026-04-15 12:22:26;2026-04-15 15:31:31;189.09;2026-04-15
+;5288-D doksi update;2026-04-16 08:35:14;2026-04-16 12:57:57;262.71;2026-04-16
+08:30 - 09:00 - FUSION summary report update. 09:00-tól Meeting: IVF Verifikáció, MEDISO Ltd. Codebeamer next step;;;262.71;2026-04-17
+kezdéstõl: FUSION verification summary report  véglegesítés, cockpit doksik zárása;;;120;2026-04-16
+-nemzethalál meeting
+-megbeszélés Gáborral, hogy hogy lehetne a sok teszt gép, egy futtató gép koncepciót megcsinálni
+-Megbeszélés Renivel a visszatesztelendõ ticketekrõl
+-meeting: coebeamer megbeszélés
+-
+
+
+;Kiszler Gáboros ticketek lezárása;2026-04-21 08:04:29;2026-04-21 08:04:34;0.09;2026-04-21
+;Megbeszélés Kotroczó Nándorral Bálint feladatairól;2026-04-21 08:05:21;2026-04-21 08:05:24;0.04;2026-04-21
+AF-17369;AF-17369 - ez egy tereprõl visszajött kririkus XP-s hiba. Invesztigálás, Marcitól kérni, hogy reporzza, földeríteni, van e requirement/teszt rá, standup, IFV standup, IVF performance tesztelés elkezdése: AF-17474;2026-04-21 08:14:23;2026-04-21 10:58:24;164.01;2026-04-21
+;Megbeszélés Varga Andrá
+ssal a 05282-R dokumentummal kapcosaltban;2026-04-21 12:30:28;2026-04-21 16:28:00;237.54;2026-04-21
+;A kiértékelõ SW-ek performance tesztelésének elõkészítése: confluence oldalak megcsinálása, belinkelése, konfigok tisztázása. Megbeszélés Zsótér Norbival a test konfigok relevanciájáról, konfigokról, FUSION standup;2026-04-22 08:13:44;2026-04-22 09:17:03;63.33;2026-04-22
+;standup (9:25);2026-04-22 09:31:07;2026-04-22 09:36:45;5.64;2026-04-22
+;megbeszélés Fegyvári Zsolttal SD-19370 ticketrõl 15 perc;-;-;5.64;2026-04-22
+;FUSION general regression protokoll felvitele confluence-re;2026-04-22 09:54:48;2026-04-22 10:07:32;12.74;2026-04-22
+;FUSION performance tesztelés legfõbb scenario-k és konfigok logolása ticketbe;2026-04-22 10:11:57;2026-04-22 10:17:50;5.88;2026-04-22
+;05282-R doksi review és kitöltés, meeting: InterView XP 3.09 (AnyScan R3) Feladatok, InterView FUSION 3.14 (AnyScan R3) Feladatok, SPECT/CT/PET R3 feladatok;2026-04-22 10:37:25;2026-04-22 15:24:58;287.57;2026-04-22
+;kb 16:50-tõl munkavégzésig 05282-R doksi kitöltése (17:30-ig);-;-;287.57;2026-04-22
+;05282-D dokumentum kitöltése (08:30), standup FUSION, teszt, support andrásnak a trace doksikkal kapcsolatban, support Andrásnak és kérdezés a cockpit adminok csopiban, hogy  a trace doksik miért nem frissülnek, FUSION cockpit -es doksik (general regression)
+;2026-04-24 07:39:09;2026-04-24 07:39:09;0.01;2026-04-24
+;05282-D frissítés (nap végéig);2026-04-24 07:42:18;-;-3.15;2026-04-27
+;05282 frissítés (újraírás), nemzethalál meeting, Marcit megkérni, hogy az IVTEST PC III-t pimpelje föl a penetration teszteléshez., Install test PC II elõkészítése vulnerability teszteléshez;2026-04-27 08:15:40;2026-04-27 14:38:30;382.85;2026-04-27
+;IQC, MSQ komponens installer telepítés, ticket visszaellenõrzés;2026-04-27 14:39:02;2026-04-27 15:27:49;48.77;2026-04-27
+;Gép összerakás vulnerability teszteléshez, XP tesztelés szervezés 3.9.29;2026-04-28 08:46:45;2026-04-28 14:54:43;367.96;2026-04-28
+;pipálgatás Bálinttal gantry server 1.4.8 (1 óra biztos);-;-;367.96;2026-04-28
+;Kis Bálint f2f meeting 30 perc;-;-;367.96;2026-04-28
+;megbeszélés Hegyi Zsolttal  - DICOM Server 5.0.8 verifikációval kapcsolatban (érkezéstõl);-;2026-04-29 08:16:13;1409.46;2026-04-29
+;Megbeszélés Reuss ANdrással, Barna Zsolttal a nucline verziókkal kapcsolatban (nucline UI-on mindig a termék verziónak kell látszania);-;-;15.00;2026-04-29
+;Fábián Gáborral ticket adminisztráció és feladat kiosztás - File Server 5.2.11 (20 perc);-;-;1409.46;2026-04-29
+;specifikáció kiderítése a file server változáshoz;2026-04-29 08:51:57;2026-04-29 09:36:00;44.06;2026-04-29
+;a git desktop appban megnézni, hogy hogy lehet branch-en commit hash segítségével változás intervallumokat szûrni;2026-04-29 09:36:38;2026-04-29 10:09:00;32.36;2026-04-29
+;Support Reninek a  SwVPr - Windows version change protocol kialakításában (az intervallumhoz vagy 20 perc még menjen hozzá);2026-04-29 10:09:45;2026-04-29 10:48:28;38.71;2026-04-29
+;win2019 serverre való belépési próbálkozások és update-elés 30 perc;-;-;38.71;2026-04-29
+;MSQ teszt adminisztráció, iqc tesztelés és adminisztráció plusz 15 perc az MSQ adminisztráció;2026-04-29 13:07:03;2026-04-29 14:46:59;99.93;2026-04-29
+;Varga ANdrás jelezte, hogy a 05448-D és 05451-D doksik újra lettek generála és alá kellene írni. Ezeket néztem ,mert nem úgy nézett ki;2026-04-30 08:26:38;2026-04-30 08:58:55;32.29;2026-04-30
+;kiszedni az SWVPR szöveget az régi verification protokollokból, hogy ne zavarjon be a cockpit keresésekbe (10:02-tõl);2026-04-30 10:12:29;2026-04-30 11:19:47;67.30;2026-04-30
+;DICOM SwVPR-ek executed-be állítása és XP verifikáció frissítése;2026-04-30 11:25:43;2026-04-30 12:20:53;55.17;2026-04-30
+;megnézni, hogy a robot tesztek mekkora lefedettséget nyújtanak az XP-re;2026-04-30 14:16:23;2026-04-30 16:13:54;117.51;2026-04-30
+;IVXP RC4 teszt ek összeszedés(minek kell futnia a change analízis alapján);2026-05-04 08:55:36;2026-05-04 10:13:05;77.48;2026-05-04
+;05271-R frissítés, megbeszélés: Klinikai fejlesztési feladatok / státusz;-;2026-05-04 12:11:22;195.77;2026-05-04
+;CT teszt protokoll újra fiuttatása, András Support (08:00-08:30), ;-;-;195.77;2026-05-05
+;10:00 - 10:45 Meeting: cockpit workflow módosítás/optimalizálás;-;-;195.77;2026-05-05
+;Fábián Gáborral megbeszélni a File server protokoll futtatását;-;-;195.77;2026-05-05
+;doksi aláírás (SWVSR, LKRA), Marci, Albert instruálás, verifikáció befejezés, dokumentációk töltése;-;-;195.77;2026-05-06
+;érkezéstõl: XP automata tesztek kiértékelése, újra futtatása, dokumentálás (kb 10:00-ig);-;-;195.77;2026-05-06
+AF-17362;AF-17362 ticket invesztigáció (kb fél óra);-;-;195.77;2026-05-06
+;f2f marcivanl (30), Software Release Document-ek aláírása (45) 2026-05-06
+;-;-;195.77;2026-05-07
+;09:00-tól - standup (10 perc);-;-;195.77;2026-05-07
+;megbeszélés a performance tesztek végrehajtásával kapcsolatban Alberttel és Marcival (10 perc);-;-;195.77;2026-05-07
+;LKRA doksik aláírása Bálintnak 15 perc;-;-;195.77;2026-05-07
+;egész nap: XP 04908-as doksi és 05271-es doksi tutjgatása, kiadás, 05282-es doksi tutujgatás (van benne olyan doksi, ami már nincs cockpitben, a support amit kaptam: kérdezzem meg Danit,m mert cockpites a doksi), PET protokoll kiadások;-;2026-05-08 18:01:40;6306.07;2026-05-08
+;05282-R doksi tutujgatás (11:00 - ) -1,5 óra (elmentem cicómicóért) este 11-ig ment;-;-;6306.07;2026-05-11
+;Dokumentum aláírás (12:30-tól);-;2026-05-11 13:00:01;30.00;2026-05-11
+;Bélintos meeting 30 perc, Varga Andrásos meeting;2026-05-11 13:00:07;2026-05-11 14:36:27;96.33;2026-05-11
+;Cockpit support Andrásnak, 05282 update-elése az 59-es verzióhoz (este 8-ig);2026-05-11 15:03:03;-;-26.60;2026-05-12
+;Support Szanyi Bálintnak, standup, support intézés a performance tesztek végrehajtásához, 04730-R-as doksi intézése;2026-05-12 08:41:35;2026-05-12 09:58:38;77.05;2026-05-12
+;5282 doksi megcsinálása 59-es buildre, Norbival agyalás azon, hogy a performance teszt hogy legyen, mert a 3rd party-khoz nincs license ;-;2026-05-12 16:41:26;479.84;2026-05-12
+;04730-R doksi tutjgatás, support Albertnek, Marcinak teszteléssel kapcsolatban, MSQ hiba invesztigáció, Gróf Laci rám dobta ezt a ticketet: SD-19458 - ezzel is kellene kezdeni valamit, mert nincs benne kb semmi info;-;2026-05-13 13:47:13;1745.63;2026-05-13
+;support Andrásnak requirement review-val kapcsoaltban, ticketek összegyûjtése Zsótér Norbinak;2026-05-13 14:01:42;2026-05-13 16:42:59;161.28;2026-05-13
+SD-18667;megnézni, hogy msq, miqc-nál miylen tesztek lettek automatizálva, support Albertnek és Marcinak az XP teszt végrehajtás adminisztrációjával kapcsolatban, megbeszélés Andrással a 05282-R kitöltésével kapcsolatban, meting Gróf Laciékkal arról, hogy a ;2026-05-14 08:36:46;2026-05-14 15:56:18;439.53;2026-05-14
