@@ -16,14 +16,14 @@ class TimeTrackerView:
 
         self.ticket_entry = tk.Entry(self.root, width=16)
         self.desc_text = tk.Text(self.root, width=14, height=10, wrap="word")
-        self.start_label = tk.Label(self.root, text="-")
-        self.stop_label = tk.Label(self.root, text="-")
+        self.start_entry = tk.Entry(self.root, width=16)
+        self.stop_entry = tk.Entry(self.root, width=16)
         self.minutes_entry = tk.Entry(self.root, width=10)
 
         self.ticket_entry.grid(row=1, column=0, sticky="w", pady = (0, 10))
         self.desc_text.grid(row=5, column=0, sticky="w", pady = (0, 20))
-        self.start_label.grid(row=8, column=0, sticky="w", pady = (0, 10))
-        self.stop_label.grid(row=10, column=0, sticky="w", pady = (0, 10))
+        self.start_entry.grid(row=8, column=0, sticky="w", pady = (3, 10))
+        self.stop_entry.grid(row=10, column=0, sticky="w", pady = (0, 10))
         self.minutes_entry.grid(row=12, column=0, sticky="w", pady = (0, 10))
 
         self.start_btn = tk.Button(self.root, text="Start")
@@ -50,8 +50,8 @@ class TimeTrackerView:
     def clear(self):
         self.ticket_entry.delete(0, "end")
         self.desc_text.delete("1.0", "end")
-        self.start_label.config(text="-")
-        self.stop_label.config(text="-")
+        self.start_entry.delete(0,"end")
+        self.stop_entry.delete(0,"end")
         self.minutes_entry.delete(0, "end")
 
     def dock_left(self, width=260):

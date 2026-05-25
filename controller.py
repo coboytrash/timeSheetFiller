@@ -14,15 +14,13 @@ class TimeTrackerController:
 
     def start_clicked(self):
         start = self.model.start()
-        self.view.start_label.config(text=start.strftime("%Y-%m-%d %H:%M:%S"))
+        self.view.start_entry.insert(0, start.strftime("%Y-%m-%d %H:%M"))
 
     def stop_clicked(self):
         stop = self.model.stop()
         minutes = self.model.duration_minutes()
 
-        self.view.stop_label.config(
-            text=stop.strftime("%Y-%m-%d %H:%M:%S")
-        )
+        self.view.stop_entry.insert(0, stop.strftime("%Y-%m-%d %H:%M"))
 
         if not self.view.minutes_entry.get():
             self.view.minutes_entry.insert(0, f"{minutes:.2f}")
@@ -30,8 +28,8 @@ class TimeTrackerController:
     def add_clicked(self):
 
         jira, task = self.view.get_form_data()
-        start = self.view.start_label.cget("text")
-        stop = self.view.stop_label.cget("text")
+        start = self.view.start_entry.get()
+        stop = self.view.stop_entry.get()
 
         minutes = self._get_minutes()
         if minutes is None:
@@ -84,5 +82,4 @@ class TimeTrackerController:
 
     def ticket_id_sort(self, result):
         result_sorted = sorted(result, key=lambda x: x[1], reverse=True)
-        print(result_sorted)
-        self.view.fill_history_sel(result_sorted)
+        self.view.ticket_id_with_counts(result_sorted)
