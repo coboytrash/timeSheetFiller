@@ -70,6 +70,7 @@ class TimeTrackerController:
 
     def ticket_id_with_counts(self):
         count_list = []
+        result = []
         ticket_id = self.model.ticket_id_extractor()
         ticket_id_without_duplicates = list(dict.fromkeys(ticket_id))
         for ticket_raw in ticket_id_without_duplicates:
