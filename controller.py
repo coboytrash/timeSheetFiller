@@ -38,7 +38,7 @@ class TimeTrackerController:
             return  # invalid or missing data
 
         actual_date = self.model.add_date()
-        actual_ticket = self.model.ticket_entry.get()
+
 
         self.writer.write_entry(
             jira=jira,
@@ -56,7 +56,7 @@ class TimeTrackerController:
         self.view.root.attributes("-topmost", self.always_on_top)
         status = "ON" if self.always_on_top else "OFF"
         self.view.top_btn.config(text=f"A.O.T. {status}")
-        self.ticket_id_data()
+        self.ticket_id_with_counts()
 
     def _get_minutes(self):
         manual = self.view.minutes_entry.get().strip()
@@ -68,6 +68,20 @@ class TimeTrackerController:
                 return None
         return self.model.duration_minutes()
 
-    def ticket_id_data(self):
+    def ticket_id_with_counts(self):
+        count_list = []
         ticket_id = self.model.ticket_id_extractor()
-        self.view.fill_history_sel(ticket_id)
+        ticket_id_without_duplicates = list(dict.fromkeys(ticket_id))
+        for ticket_raw in ticket_id_without_duplicates:
+            count = 0
+            for j,ticket in enumerate(ticket_id):
+                if ticket_raw == ticket:
+                    count += 1
+            count_list.append(count)
+            result = list(zip(ticket_id_without_duplicates,count_list))
+        self.ticket_id_sort(result)
+
+    def ticket_id_sort(self, result):
+        result_sorted = sorted(result, key=lambda x: x[1], reverse=True)
+        print(result_sorted)
+        self.view.fill_history_sel(result_sorted)
