@@ -395,3 +395,23 @@ AF-17362;AF-17362 ticket invesztigáció (kb fél óra);-;-;195.77;2026-05-06
 ;04730-R doksi tutjgatás, support Albertnek, Marcinak teszteléssel kapcsolatban, MSQ hiba invesztigáció, Gróf Laci rám dobta ezt a ticketet: SD-19458 - ezzel is kellene kezdeni valamit, mert nincs benne kb semmi info;-;2026-05-13 13:47:13;1745.63;2026-05-13
 ;support Andrásnak requirement review-val kapcsoaltban, ticketek összegyûjtése Zsótér Norbinak;2026-05-13 14:01:42;2026-05-13 16:42:59;161.28;2026-05-13
 SD-18667;megnézni, hogy msq, miqc-nál miylen tesztek lettek automatizálva, support Albertnek és Marcinak az XP teszt végrehajtás adminisztrációjával kapcsolatban, megbeszélés Andrással a 05282-R kitöltésével kapcsolatban, meting Gróf Laciékkal arról, hogy a ;2026-05-14 08:36:46;2026-05-14 15:56:18;439.53;2026-05-14
+;MIQC tesztek és requirementek átnézése, protokoll végrehajtás intézése, levél az interview tesztelés szervezetlkenségérõl, test environment oldalak átrendezése (kezdéstõl 11:52-ig);2026-05-14 15:56:35;2026-05-15 11:51:43;1195.12;2026-05-15
+;IV "windows related tests" protocol review-ja, végrehajtása;2026-05-15 11:52:19;2026-05-15 13:02:59;70.68;2026-05-15
+;Levél írás az XP-s tesztelés káosszal kapcsolatban + review;2026-05-15 13:03:14;2026-05-15 13:52:01;48.78;2026-05-15
+;clean image visszahúzás THIN MAN-re;2026-05-18 07:36:50;2026-05-18 08:34:15;57.42;2026-05-18
+;windows telepítés + athena config (megkeresni az aktuális athena-t) nap végéig;2026-05-18 09:37:14;-;-62.97;2026-05-19
+AF-16347;teszt review az XP-s tesztekkel kapcsolatban, standup;2026-05-19 08:10:39;2026-05-19 09:16:01;65.37;2026-05-19
+;Megbeszéls Bonifáccal a 3rd party-s tesztek protokollba szervezésével kapcsolatban + protokoll létrehozás kb 2 óra, megbeszélés Zsótér Norbival a következõ tesztelésrõl 1,5 óra, megbeszélés Gróf Lacival a wix-rõl, remote client appról, stb 1 óra, Ispanovity Antal support 10 perc, Albert support, 30 perc, ;2026-05-19 09:52:11;-;-36.16;2026-05-19
+;standup, megbeszélés Renivel a FUSION teszteléssel kapcsolatban 1 óra;-;2026-05-20 10:14:04;60.00;2026-05-20
+;megbeszélés Alberttel a nightly bukásokkal kapcsolatban (legyenek kiemelve a service tesztek);2026-05-20 10:15:39;2026-05-20 10:50:38;34.99;2026-05-20
+AF-16347;interview FUSION teszt review, cockpit segéd lekérdezés kreálása;2026-05-20 10:50:52;2026-05-20 11:54:33;63.69;2026-05-20
+SD-18479;Meeting: InterView XP 3.09 (AnyScan R3) Feladatok, InterView FUSION 3.14 (AnyScan R3) Feladatok. 12:00-14:00;-;2026-05-20 14:09:26;120.00;2026-05-20
+;support Andrásnak, TP12268 protokoll megnézése;2026-05-20 14:23:46;2026-05-20 14:27:07;3.35;2026-05-20
+;ticket rendszerezés;2026-05-20 14:30:59;2026-05-20 15:02:25;31.43;2026-05-20
+AF-14256;ticketek visszatesztelésének manage-elése;-;-;30.00;2026-05-20
+;ticket adminisztráció 30 perc;-;-;31.43;2026-05-20
+;8:45-tõl - standup, Levél írás a kiértékelõ csoportnak;-;-;60.00;2026-05-21
+AF-14256;3rd party test protokoll összeállítása, conf oldal a teszt protokollok töltésérõl (https://confluence.mediso.com/x/w45qFg), support Reninek;2026-05-21 10:08:24;2026-05-21 14:32:44;264.22;2026-05-21
+;megbeszélés a test protokollos conf oldallal kapcsoaltban (Reuss A, Fábián G ) nap végéig, kb 4:15;2026-05-21 14:32:56;-;-0.20;2026-05-22
+;elõkészülés Norbis statusra;2026-05-22 08:21:30;2026-05-22 08:39:16;17.76;2026-05-22
+;ad-hoc ticket zárások, info gyûjtés, beszélgetés Bonifáccal a 3rd party tesztelés szervezésérõl;2026-05-22 10:10:24;2026-05-22 14:11:22;240.97;2026-05-22

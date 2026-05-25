@@ -59,7 +59,7 @@ class TimeTrackerView:
         self.root.geometry(f"{width}x{screen_height}+0+0")
         self.root.resizable(width=True, height=False)
 
-    def fill_history_sel(self,history_sel_data):
+    def ticket_id_with_counts(self,history_sel_data):
         for history_sel_data_count in history_sel_data:
-            self.history_sel.insert(tk.END, history_sel_data_count)
+            self.history_sel.insert(tk.END, history_sel_data_count[0])
 
