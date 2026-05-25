@@ -23,7 +23,7 @@ class TimeTrackerView:
         self.ticket_entry.grid(row=1, column=0, sticky="w", pady = (0, 10))
         self.desc_text.grid(row=5, column=0, sticky="w", pady = (0, 20))
         self.start_entry.grid(row=8, column=0, sticky="w", pady = (3, 10))
-        self.stop_entry.grid(row=10, column=0, sticky="w", pady = (0, 10))
+        self.stop_entry.grid(row=10, column=0, sticky="w", pady = (3, 10))
         self.minutes_entry.grid(row=12, column=0, sticky="w", pady = (0, 10))
 
         self.start_btn = tk.Button(self.root, text="Start")
@@ -38,8 +38,6 @@ class TimeTrackerView:
 
         self.history_sel = tk.Listbox(master=None,cnf={})
         self.history_sel.grid(row=3, column=0, sticky="nw")
-
-
 
     def get_form_data(self):
         return (

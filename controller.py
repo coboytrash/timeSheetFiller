@@ -3,6 +3,7 @@ class TimeTrackerController:
         self.model = model
         self.writer = writer
         self.view = view
+        self.ticket_id_with_counts()
         self.always_on_top = False
         self.bind_events()
 
@@ -26,7 +27,6 @@ class TimeTrackerController:
             self.view.minutes_entry.insert(0, f"{minutes:.2f}")
 
     def add_clicked(self):
-
         jira, task = self.view.get_form_data()
         start = self.view.start_entry.get()
         stop = self.view.stop_entry.get()
@@ -54,7 +54,6 @@ class TimeTrackerController:
         self.view.root.attributes("-topmost", self.always_on_top)
         status = "ON" if self.always_on_top else "OFF"
         self.view.top_btn.config(text=f"A.O.T. {status}")
-        self.ticket_id_with_counts()
 
     def _get_minutes(self):
         manual = self.view.minutes_entry.get().strip()
