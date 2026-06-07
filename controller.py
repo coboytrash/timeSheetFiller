@@ -12,6 +12,7 @@ class TimeTrackerController:
         self.view.stop_btn.config(command=self.stop_clicked)
         self.view.add_btn.config(command=self.add_clicked)
         self.view.top_btn.config(command=self.toggle_top)
+        self.view.history_sel.bind("<<ListboxSelect>>", self.list_clicked)
 
     def start_clicked(self):
         start = self.model.start()
@@ -64,6 +65,10 @@ class TimeTrackerController:
             except ValueError:
                 return None
         return self.model.duration_minutes()
+
+    def list_clicked(self,event):
+        selected_ticket = self.view.get_selected_ticket_from_list()
+        self.view.set_selected_ticket_to_list(selected_ticket)
 
     def ticket_id_with_counts(self):
         count_list = []

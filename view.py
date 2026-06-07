@@ -36,7 +36,7 @@ class TimeTrackerView:
         self.add_btn.grid(row=13, column=0, sticky="ew", pady = (0, 10))
         self.top_btn.grid(row=14, column=0, sticky="ew")
 
-        self.history_sel = tk.Listbox(master=None,cnf={})
+        self.history_sel = tk.Listbox(master=None,cnf={},selectmode=tk.BOTH)
         self.history_sel.grid(row=3, column=0, sticky="nw")
 
     def get_form_data(self):
@@ -61,3 +61,15 @@ class TimeTrackerView:
         for history_sel_data_count in history_sel_data:
             self.history_sel.insert(tk.END, history_sel_data_count[0])
 
+    def get_selected_ticket_from_list(self):
+        ticket_index = self.history_sel.curselection()
+        selected_ticket = ",".join([self.history_sel.get(i) for i in ticket_index])
+        print(selected_ticket)
+        return selected_ticket
+
+    def set_selected_ticket_to_list(self,selected_ticket):
+        if selected_ticket != "":
+            self.ticket_entry.delete(0, "end")
+            self.ticket_entry.insert(tk.END, selected_ticket)
+        else:
+            self.ticket_entry.insert(tk.END, selected_ticket)
