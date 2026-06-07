@@ -64,7 +64,6 @@ class TimeTrackerView:
     def get_selected_ticket_from_list(self):
         ticket_index = self.history_sel.curselection()
         selected_ticket = ",".join([self.history_sel.get(i) for i in ticket_index])
-        print(selected_ticket)
         return selected_ticket
 
     def set_selected_ticket_to_list(self,selected_ticket):
