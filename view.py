@@ -30,11 +30,13 @@ class TimeTrackerView:
         self.stop_btn = tk.Button(self.root, text="Stop")
         self.add_btn = tk.Button(self.root, text="Add Task")
         self.top_btn = tk.Button(self.root, text="A.O.T. OFF")
+        self.cl_btn = tk.Button(self.root, text="CL", width=5)
 
         self.start_btn.grid(row=7, column=0, sticky="ew")
         self.stop_btn.grid(row=9, column=0, sticky="ew")
         self.add_btn.grid(row=13, column=0, sticky="ew", pady = (0, 10))
         self.top_btn.grid(row=14, column=0, sticky="ew")
+        self.cl_btn.grid(row=12, column=0, sticky="e", pady = (0, 10))
 
         self.history_sel = tk.Listbox(master=None,cnf={},selectmode=tk.BOTH)
         self.history_sel.grid(row=3, column=0, sticky="nw")
