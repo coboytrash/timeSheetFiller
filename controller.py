@@ -16,13 +16,13 @@ class TimeTrackerController:
 
     def start_clicked(self):
         start = self.model.start()
-        self.view.start_entry.insert(0, start.strftime("%Y-%m-%d %H:%M"))
+        self.view.start_entry.insert(0, start.strftime("%H:%M"))
 
     def stop_clicked(self):
         stop = self.model.stop()
         minutes = self.model.duration_minutes()
 
-        self.view.stop_entry.insert(0, stop.strftime("%Y-%m-%d %H:%M"))
+        self.view.stop_entry.insert(0, stop.strftime("%H:%M"))
 
         if not self.view.minutes_entry.get():
             self.view.minutes_entry.insert(0, f"{minutes:.2f}")
