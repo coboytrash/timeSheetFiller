@@ -12,6 +12,7 @@ class TimeTrackerController:
         self.view.stop_btn.config(command=self.stop_clicked)
         self.view.add_btn.config(command=self.add_clicked)
         self.view.top_btn.config(command=self.toggle_top)
+        self.view.cl_btn.config(command=self.cl_clicked)
         self.view.history_sel.bind("<<ListboxSelect>>", self.list_clicked)
 
     def start_clicked(self):
@@ -21,11 +22,17 @@ class TimeTrackerController:
     def stop_clicked(self):
         stop = self.model.stop()
         minutes = self.model.duration_minutes()
-
         self.view.stop_entry.insert(0, stop.strftime("%H:%M"))
-
         if not self.view.minutes_entry.get():
             self.view.minutes_entry.insert(0, f"{minutes:.2f}")
+
+    def cl_clicked(self):
+        start = self.view.start_entry.get()
+        stop = self.view.stop_entry.get()
+        minutes = self.model.duration_minutes(start=start, stop=stop)
+        self.view.minutes_entry.delete(0, "end")
+        self.view.minutes_entry.insert(0, f"{minutes:.2f}")
+
 
     def add_clicked(self):
         jira, task = self.view.get_form_data()
@@ -37,7 +44,6 @@ class TimeTrackerController:
             return  # invalid or missing data
 
         actual_date = self.model.add_date()
-
 
         self.writer.write_entry(
             jira=jira,

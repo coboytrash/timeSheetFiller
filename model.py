@@ -1,6 +1,7 @@
 from datetime import datetime
 from pathlib import Path
 
+
 class TimeTracker:
     def __init__(self):
         self.start_time = None
@@ -14,11 +15,18 @@ class TimeTracker:
         self.stop_time = datetime.now()
         return self.stop_time
 
-    def duration_minutes(self):
-        if self.start_time and self.stop_time:
+    def duration_minutes(self, start=None, stop=None):
+        if start != None and stop != None:
+            fmt = "%H:%M"
+            stop_time = datetime.strptime(stop,fmt)
+            start_time = datetime.strptime(start,fmt)
+            diff =  stop_time - start_time
+        elif self.start_time and self.stop_time:
             diff = self.stop_time - self.start_time
-            return diff.total_seconds() / 60
-        return None
+        else:
+            diff = None
+        return diff.total_seconds() / 60
+
 
     def add_date(self):
         self.date_at_add = datetime.now().strftime("%Y-%m-%d")
