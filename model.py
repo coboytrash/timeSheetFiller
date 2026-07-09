@@ -34,7 +34,7 @@ class TimeTracker:
 
     def ticket_id_extractor(self):
         ticket_id_list = []
-        with open("timeSheetFiller.txt", "rt") as f:
+        with open("timeSheetFiller.txt", "rt", encoding="utf-8") as f:
             for line_number, line in enumerate (f,start=0):
                 if line_number >= 1:
                     line = line.split(";",2)

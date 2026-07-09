@@ -30,7 +30,7 @@ class TimeTrackerView:
         self.stop_btn = tk.Button(self.root, text="Stop")
         self.add_btn = tk.Button(self.root, text="Add Task")
         self.top_btn = tk.Button(self.root, text="A.O.T. OFF")
-        self.cl_btn = tk.Button(self.root, text="CL", width=5)
+        self.cl_btn = tk.Button(self.root, text="⌛", width=5)
 
         self.start_btn.grid(row=7, column=0, sticky="ew")
         self.stop_btn.grid(row=9, column=0, sticky="ew")
@@ -53,6 +53,7 @@ class TimeTrackerView:
         self.start_entry.delete(0,"end")
         self.stop_entry.delete(0,"end")
         self.minutes_entry.delete(0, "end")
+        self.history_sel.delete(0, tk.END)
 
     def dock_left(self, width=260):
         screen_height = self.root.winfo_screenheight()
