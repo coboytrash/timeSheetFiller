@@ -4,6 +4,7 @@ from view import TimeTrackerView
 from controller import TimeTrackerController
 
 
+
 def main():
     root = tk.Tk()
     model = TimeTracker()
