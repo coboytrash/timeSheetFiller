@@ -54,7 +54,6 @@ class TimeTrackerController:
             actual_date=actual_date,
         )
         self.view.clear()
-        self.ticket_id_with_counts()
 
 
     def toggle_top(self):
